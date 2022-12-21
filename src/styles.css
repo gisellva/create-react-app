@@ -186,7 +186,7 @@ nav {
 }
 .loadin{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-left: 40%;
   margin-top: 5rem;
   font-size: 2rem;

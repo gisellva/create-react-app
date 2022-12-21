@@ -20,7 +20,7 @@ const Pokedex = (props) => {
     <div>
       <div className="header">
         <h1>Pokedex</h1>
-        <img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c31f.png" alt="pokemon" className="pokebola"  width={50} height={50}/>
+        <img src="https://w7.pngwing.com/pngs/173/464/png-transparent-pokemon-ball-pokeball-area-wiki-technology-thumbnail.png" alt="pokemon" className="pokebola"  width={50} height={50}/>
         <Pagination
           page={page + 1}
           totalPages={total}
@@ -30,8 +30,8 @@ const Pokedex = (props) => {
       </div>
       {loading ? (
         <div className="loadin">
-          <img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c31f.png" alt="pokemon" className="pokebola"  width={80} height={80}/>
-          <p>cargando pokemones.....</p>
+          <img src="https://w7.pngwing.com/pngs/812/169/png-transparent-pokemon-x-and-y-pokemon-go-pikachu-mew-pokemon-go-white-mammal-face-thumbnail.png" alt="pokemon" className="pokebola"  width={80} height={80}/>
+          <p >cargando pokemones.....</p>
         </div>
       ) : (
         <div className="pokedex-grid">
