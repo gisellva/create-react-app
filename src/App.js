@@ -98,7 +98,7 @@ export default function App() {
           {notFound ? (
             <div className="not-found-text">
             <p> lo siento no se encontro el pokemon que buscas</p>
-            <img src="https://w7.pngwing.com/pngs/868/383/png-transparent-pokemon-go-pokemon-battle-revolution-pokemon-red-and-blue-pikachu-starters-mammal-vertebrate-fictional-character-thumbnail.png" alt="pokemon" className="pokemon" />
+            
             </div>
           ) : (
             <Pokedex
